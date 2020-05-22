@@ -4,7 +4,7 @@
 #include <string>
 #include <utility>
 
-class Logger //Класс с помощью которого мы записываем данные в файл
+class Logger 
 {
 	std::string logPath;
 	std::ofstream logFile;

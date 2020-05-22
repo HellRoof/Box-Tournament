@@ -2,9 +2,9 @@
 #include <string>
 
 struct Settings
-//Содержит данные для доступа
+
 {
-	enum DifficultyLevel //Перечисление уровней сложности
+	enum DifficultyLevel
 	{
 		Easy=3, Medium, Hard
 	};
@@ -17,7 +17,7 @@ struct Settings
 	bool needReload{ true };
 	bool humanIsFighting{ false };
 
-	size_t maxBoxerNameLength{ 0 };	//Содержит наидлиннейшее имя боксера. Сделано для корректирования.
+	size_t maxBoxerNameLength{ 0 };	
 
 	std::string computerPlayersFilePath{ "boxers.txt" };
 	std::string logFilePath{ "log.txt" };

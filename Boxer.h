@@ -9,7 +9,7 @@
 extern Logger Log;
 extern Settings settings;
 
-class Boxer       //Класс Боксер. в .h обьявление в .сpp инициализация методов.
+class Boxer     
 {
 public:	
 	int hp;
@@ -26,8 +26,8 @@ private:
 	BodyPart protectingZone;
 
 public:
-	Boxer(const std::string& name_init,const std::string& last_name_init, unsigned int age__init, bool isHuman); //Конструктор 1
-	Boxer(); //Стандартный конструктор
+	Boxer(const std::string& name_init,const std::string& last_name_init, unsigned int age__init, bool isHuman);
+	Boxer();
 	int getRandom(int min, int max);
 	BodyPart generateBodyPart(const std::string& prompt = "");
 	bool isAlive();

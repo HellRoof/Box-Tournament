@@ -1,6 +1,6 @@
 ﻿#include "BodyPart.h"
 
-std::string bodyPartToString(BodyPart part) //Конверт Enum в string
+std::string bodyPartToString(BodyPart part)
 {
 	std::string result;
 	switch (part)
@@ -15,12 +15,12 @@ std::string bodyPartToString(BodyPart part) //Конверт Enum в string
 	return result;
 }
 
-std::ostream& operator<<(std::ostream& out, BodyPart part) //Перегрузка оператора
+std::ostream& operator<<(std::ostream& out, BodyPart part)
 {
 	return out << bodyPartToString(part);
 }
 
-int bodyPartPoints(BodyPart part) //Урон от ударов в разные части тела.
+int bodyPartPoints(BodyPart part)
 {
 	int points{ 0 };
 	switch (part)

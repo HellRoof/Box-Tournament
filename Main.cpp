@@ -7,6 +7,6 @@ Settings settings;
 
 int main()
 {
-	Game game;  //Обьект класса
+	Game game;
 	game.run();
 }

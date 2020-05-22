@@ -1,6 +1,6 @@
 ﻿#include "Boxer.h"
 
-//Конструктор
+
 Boxer::Boxer(const std::string& name_init,const std::string& last_name_init, unsigned int age_init, bool isHuman) :
 	name{ name_init },
 	last_name{ last_name_init },
@@ -12,7 +12,7 @@ Boxer::Boxer(const std::string& name_init,const std::string& last_name_init, uns
 {
 }
 
-//Конструктор
+
 Boxer::Boxer():
 	name{},
 	last_name{},
@@ -24,14 +24,14 @@ Boxer::Boxer():
 {
 }
 
-//Рандомайзер
+
 int Boxer::getRandom(int min, int max)
 {
 	std::uniform_int_distribution<int> value{ min, max };
 	return value(mersenne);
 }
 
-//Выбор части тела
+
 BodyPart Boxer::generateBodyPart(const std::string& prompt)
 {
 	if (isHumanPlayer)
@@ -56,31 +56,31 @@ BodyPart Boxer::generateBodyPart(const std::string& prompt)
 	return BodyPart();
 }
 
-//Проверка, жив ли боксер.
+
 bool Boxer::isAlive()
 {
 	return hp > 0;
 }
 
-//Данные о том, какую цель для атаки выбрали
+
 BodyPart Boxer::getTarget()
 {
 	return target;
 }
 
-//Выбор цели для удара
+
 void Boxer::setTarget(BodyPart part)
 {
 	target = part;
 }
 
-//Данные о том, какую цель для защиты выбрали
+
 BodyPart Boxer::getProtectingZone()
 {
 	return protectingZone;
 }
 
-//Выбор цели для защиты
+
 void Boxer::setProtectingZone(BodyPart part)
 {
 	protectingZone = part;
@@ -93,7 +93,7 @@ std::string Boxer::getFullName(bool aligned)
 	return fullName;
 }
 
-//Статус, который выводится в соответствии со здоровьем игрока
+
 void Boxer::printStatus()
 {
 	std::string conclusion;
@@ -110,7 +110,7 @@ void Boxer::printStatus()
 	Log.print(Logger::CONSOLE,getFullName() + "'s HP: " + std::to_string(hp) + "   " + conclusion + '\n');
 }
 
-//Метод позволяющий выбрать бота за которого мы хотим играть
+
 void Boxer::makeHuman()
 {
 	isHumanPlayer = true;

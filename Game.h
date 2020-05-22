@@ -3,10 +3,9 @@
 #include "Tournament.h"
 #include "Settings.h"
 
-//В .h обьявление в .сpp инициализация методов.
-class Game //Класс "Игра", в котором есть метод "запуск"
+class Game
 {
-	Tournament tournament; //Обьект класса турнир
+	Tournament tournament;
 	
 public:
 	

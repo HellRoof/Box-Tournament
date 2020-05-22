@@ -1,16 +1,16 @@
 ﻿#include "Game.h"
 
-enum MainMenuOption //Перечисление опций меню
+enum MainMenuOption
 {
 	START = 1, DIFFICULTY, BOXER_FILE, LOG_FILE, ADD_HUMAN, DELETE_PLAYER, SOUND, EXIT
 };
 
-enum HumanMenuOption //Перечисление опций меню
+enum HumanMenuOption
 {
 	FROM_FILE = 1, CREATE, RETURN
 };
 
-enum CreateMenuOption //Перечисление опций меню
+enum CreateMenuOption
 {
 	NAME = 1, LAST_NAME, AGE, CONFIRM, CANCEL
 };

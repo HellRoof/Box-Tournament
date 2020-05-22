@@ -5,8 +5,7 @@
 #include <algorithm>
 #include "Log.h"
 
-class Menu  //Класс Меню. в .h обьявление в .сpp инициализация методов.
-	//С помощью этого класса мы создаем меню и производим операции с ним же
+class Menu
 {
 	std::string menuName;
 	std::vector<std::string> options;
