@@ -1,0 +1,47 @@
+Tournament begins: 8 boxers participate
+
+
+Round 1      Group size: 8
+**************************
+
+  Charlie Chaplin   VS   Eugene Levy        :    WINNER: Charlie Chaplin
+  Dick Cheney       VS   Al Pachino         :    WINNER: Al Pachino
+  Bill Murray       VS   Fred Rogers        :    WINNER: Fred Rogers
+  Howard Stern      VS   George Clooney     :    WINNER: George Clooney
+
+
+Round 2      Group size: 4
+**************************
+
+  Charlie Chaplin   VS   George Clooney     :    WINNER: George Clooney
+  Al Pachino        VS   Fred Rogers        :    WINNER: Al Pachino
+
+  Howard Stern      VS   Eugene Levy        :    WINNER: Howard Stern
+  Bill Murray       VS   Dick Cheney        :    WINNER: Bill Murray
+
+
+Round 3      Group size: 2
+**************************
+
+  George Clooney    VS   Al Pachino         :    WINNER: George Clooney
+
+  Fred Rogers       VS   Charlie Chaplin    :    WINNER: Fred Rogers
+
+  Howard Stern      VS   Bill Murray        :    WINNER: Howard Stern
+
+  Dick Cheney       VS   Eugene Levy        :    WINNER: Eugene Levy
+
+Total Tournament Ranking
+========================
+Place   Boxer                   Wins   Age
+
+-------------------------------------------
+1 : 	George Clooney     	3      59
+2 : 	Al Pachino         	2      80
+3 : 	Fred Rogers        	2      58
+4 : 	Charlie Chaplin    	1      40
+5 : 	Howard Stern       	2      66
+6 : 	Bill Murray        	1      69
+7 : 	Eugene Levy        	1      73
+8 : 	Dick Cheney        	0      79
+
